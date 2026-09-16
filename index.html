@@ -9,38 +9,105 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><div class="nav">
-<a class="logo" href="#"><b>tagspot<span>.lk</span></b><i>Your Spot..! Your Moment</i></a>
-<nav><a class="active" href="#home">Home</a><a href="#venues">Venues</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
-<a class="book" href="#coming">Book Now</a>
-</div></header>
+<header class="site-header">
+  <div class="nav">
+    <a class="logo" href="#">
+      <span class="brand">tagspot<span>.lk</span></span>
+    </a>
+    <nav>
+      <a class="active" href="#home">Home</a>
+      <a href="#venues">Venues</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="book" href="#coming">
+      <span class="book-icon">◫</span>
+      Coming Soon
+    </a>
+  </div>
+</header>
 
-<section class="hero" id="home"><div class="shade"></div><div class="wrap hero-content">
-<div class="badge">COMING SOON</div>
-<p class="eyebrow">FIND &amp; BOOK THE PERFECT VENUE</p>
-<h1>Find Your <span>Spot.</span><br>Make Your <span>Moment.</span></h1>
-<p class="intro">Discover and book venues for your special moments — from birthday halls and restaurant tables to outdoor spaces and more.</p>
-<div class="search">
-<label>📍 <span>Location<select><option>All Sri Lanka</option><option>Colombo</option><option>Kandy</option><option>Galle</option><option>Negombo</option><option>Kurunegala</option><option>Dambulla</option></select></span></label>
-<label>▣ <span>Date<input type="date"></span></label>
-<label>♙ <span>Guests<select><option>Any number</option><option>1–10 guests</option><option>11–30 guests</option><option>31–75 guests</option><option>76–150 guests</option><option>150+ guests</option></select></span></label>
-<button onclick="coming()">Search Venues</button>
-</div></div></section>
+<section class="hero" id="home">
+  <div class="hero-inner wrap">
+    <div class="hero-copy">
+      <h1 class="brand-title">tagspot<span>.lk</span></h1>
+      <h2>Your Spot...! Your Moment</h2>
+      <p>Discover and book the perfect venues for your special moments — from birthday halls to restaurants, outdoor venues, rooftops and more. Make every occasion unforgettable with tagspot.lk.</p>
+      <a class="cta" href="#coming">COMING SOON</a>
+    </div>
 
-<section class="features"><div class="wrap feature-grid">
-<div>▣ <span><b>Easy Booking</b>Book in just a few clicks</span></div>
-<div>✓ <span><b>Trusted Venues</b>Verified &amp; reliable places</span></div>
-<div>☆ <span><b>Wide Variety</b>Halls, restaurants &amp; more</span></div>
-<div>♧ <span><b>Coming Soon</b>We’re getting ready for you</span></div>
-</div></section>
+    <div class="search">
+      <label>
+        <span class="field-icon">📍</span>
+        <span class="field-copy">
+          <small>Location</small>
+          <select>
+            <option>Choose a Sri Lankan city</option>
+            <option>Colombo</option>
+            <option>Kandy</option>
+            <option>Galle</option>
+            <option>Negombo</option>
+            <option>Kurunegala</option>
+            <option>Dambulla</option>
+          </select>
+        </span>
+      </label>
+      <label>
+        <span class="field-icon">📅</span>
+        <span class="field-copy">
+          <small>Date</small>
+          <input type="date" aria-label="Date" />
+        </span>
+      </label>
+      <label>
+        <span class="field-icon">👥</span>
+        <span class="field-copy">
+          <small>Guests</small>
+          <select>
+            <option>How many?</option>
+            <option>1–10 guests</option>
+            <option>11–30 guests</option>
+            <option>31–75 guests</option>
+            <option>76–150 guests</option>
+            <option>150+ guests</option>
+          </select>
+        </span>
+      </label>
+      <button onclick="coming()">Search Venues</button>
+    </div>
+  </div>
+</section>
+
+<section class="features">
+  <div class="wrap feature-grid">
+    <div class="feature-item">
+      <span class="feature-icon">◫</span>
+      <span><b>Easy Booking</b>Book in just a few clicks</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">✓</span>
+      <span><b>Trusted Venues</b>Verified &amp; reliable places</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">★</span>
+      <span><b>Wide Variety</b>Halls, restaurants &amp; more</span>
+    </div>
+    <div class="feature-item">
+      <span class="feature-icon">◉</span>
+      <span><b>24/7 Support</b>We’re here to help</span>
+    </div>
+  </div>
+</section>
 
 <section class="venues" id="venues"><div class="wrap">
 <div class="heading"><div><p class="eyebrow">SAMPLE LOCATIONS</p><h2>Popular Spots Around Sri Lanka</h2></div><span>More venues coming soon →</span></div>
 <div class="cards">
 <article><div class="pic colombo"><b>Colombo</b></div><main><em>Birthday Hall</em><h3>The Grand Sapphire Hall</h3><p>📍 Colombo 03</p><strong>★ 4.8 <small>(120+)</small></strong></main></article>
-<article><div class="pic kandy"><b>Kandy</b></div><main><em>Restaurant</em><h3>The Terrace Restaurant</h3><p>📍 Kandy City</p><strong>★ 4.6 <small>(95+)</small></strong></main></article>
-<article><div class="pic galle"><b>Galle</b></div><main><em>Outdoor Venue</em><h3>Greenwood Gardens</h3><p>📍 Galle</p><strong>★ 4.7 <small>(80+)</small></strong></main></article>
-<article><div class="pic negombo"><b>Negombo</b></div><main><em>Rooftop</em><h3>Skyline Lounge</h3><p>📍 Negombo</p><strong>★ 4.5 <small>(60+)</small></strong></main></article>
+<article><div class="pic terrace"><b>Kandy</b></div><main><em>Terrace Restaurant</em><h3>The Terrace Restaurant</h3><p>📍 Kandy City</p><strong>★ 4.6 <small>(95+)</small></strong></main></article>
+<article><div class="pic outdoor"><b>Galle</b></div><main><em>Outdoor Venue</em><h3>Gardenia Wedding Estate</h3><p>📍 Galle</p><strong>★ 4.9 <small>(90+)</small></strong></main></article>
+<article><div class="pic rooftop"><b>Negombo</b></div><main><em>Rooftop</em><h3>Skyline Rooftop Lounge</h3><p>📍 Negombo</p><strong>★ 4.5 <small>(60+)</small></strong></main></article>
+<article><div class="pic karaoke"><b>Colombo</b></div><main><em>Karaoke Room</em><h3>Echo Nights Lounge</h3><p>📍 Colombo 07</p><strong>★ 4.7 <small>(110+)</small></strong></main></article>
+<article><div class="pic conference"><b>Kurunegala</b></div><main><em>Conference Hall</em><h3>Summit Business Center</h3><p>📍 Kurunegala</p><strong>★ 4.8 <small>(85+)</small></strong></main></article>
 </div>
 <div class="locations">📍 Colombo　 📍 Kandy　 📍 Galle　 📍 Negombo　 📍 Kurunegala　 📍 Dambulla</div>
 </div></section>
