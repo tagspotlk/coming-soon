@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>tagspot.lk | Your Spot..! Your Moment</title>
+<meta name="description" content="Find and book birthday halls, restaurant tables, outdoor venues and more across Sri Lanka.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="nav">
+<a class="logo" href="#"><b>tagspot<span>.lk</span></b><i>Your Spot..! Your Moment</i></a>
+<nav><a class="active" href="#home">Home</a><a href="#venues">Venues</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<a class="book" href="#coming">Book Now</a>
+</div></header>
+
+<section class="hero" id="home"><div class="shade"></div><div class="wrap hero-content">
+<div class="badge">COMING SOON</div>
+<p class="eyebrow">FIND &amp; BOOK THE PERFECT VENUE</p>
+<h1>Find Your <span>Spot.</span><br>Make Your <span>Moment.</span></h1>
+<p class="intro">Discover and book venues for your special moments — from birthday halls and restaurant tables to outdoor spaces and more.</p>
+<div class="search">
+<label>📍 <span>Location<select><option>All Sri Lanka</option><option>Colombo</option><option>Kandy</option><option>Galle</option><option>Negombo</option><option>Kurunegala</option><option>Dambulla</option></select></span></label>
+<label>▣ <span>Date<input type="date"></span></label>
+<label>♙ <span>Guests<select><option>Any number</option><option>1–10 guests</option><option>11–30 guests</option><option>31–75 guests</option><option>76–150 guests</option><option>150+ guests</option></select></span></label>
+<button onclick="coming()">Search Venues</button>
+</div></div></section>
+
+<section class="features"><div class="wrap feature-grid">
+<div>▣ <span><b>Easy Booking</b>Book in just a few clicks</span></div>
+<div>✓ <span><b>Trusted Venues</b>Verified &amp; reliable places</span></div>
+<div>☆ <span><b>Wide Variety</b>Halls, restaurants &amp; more</span></div>
+<div>♧ <span><b>Coming Soon</b>We’re getting ready for you</span></div>
+</div></section>
+
+<section class="venues" id="venues"><div class="wrap">
+<div class="heading"><div><p class="eyebrow">SAMPLE LOCATIONS</p><h2>Popular Spots Around Sri Lanka</h2></div><span>More venues coming soon →</span></div>
+<div class="cards">
+<article><div class="pic colombo"><b>Colombo</b></div><main><em>Birthday Hall</em><h3>The Grand Sapphire Hall</h3><p>📍 Colombo 03</p><strong>★ 4.8 <small>(120+)</small></strong></main></article>
+<article><div class="pic kandy"><b>Kandy</b></div><main><em>Restaurant</em><h3>The Terrace Restaurant</h3><p>📍 Kandy City</p><strong>★ 4.6 <small>(95+)</small></strong></main></article>
+<article><div class="pic galle"><b>Galle</b></div><main><em>Outdoor Venue</em><h3>Greenwood Gardens</h3><p>📍 Galle</p><strong>★ 4.7 <small>(80+)</small></strong></main></article>
+<article><div class="pic negombo"><b>Negombo</b></div><main><em>Rooftop</em><h3>Skyline Lounge</h3><p>📍 Negombo</p><strong>★ 4.5 <small>(60+)</small></strong></main></article>
+</div>
+<div class="locations">📍 Colombo　 📍 Kandy　 📍 Galle　 📍 Negombo　 📍 Kurunegala　 📍 Dambulla</div>
+</div></section>
+
+<section class="coming" id="coming"><div class="wrap coming-box"><div><p class="eyebrow">WE'RE GETTING READY</p><h2>Something special is <span>coming soon.</span></h2><p>Our venue marketplace is under development. Soon you’ll be able to discover, compare and book your perfect spot in Sri Lanka.</p></div><a href="mailto:hello@tagspot.lk?subject=Notify me when tagspot.lk launches">Notify Me</a></div></section>
+
+<section class="text" id="about"><div class="wrap"><p class="eyebrow">ABOUT TAGSPOT.LK</p><h2>Your Spot..! Your Moment</h2><p>tagspot.lk is being built to make finding and booking venues simple — whether it’s a birthday celebration, dinner, corporate event, wedding function or casual gathering.</p></div></section>
+<section class="text" id="contact"><div class="wrap"><p class="eyebrow">CONTACT</p><h2>Let’s connect.</h2><p>For partnerships, venue registration or general enquiries:</p><a href="mailto:hello@tagspot.lk">hello@tagspot.lk</a></div></section>
+<footer><div class="wrap">© 2026 tagspot.lk <span>Your Spot..! Your Moment · Sri Lanka</span></div></footer>
+<div class="toast" id="toast">Coming soon — venue search will be available at launch.</div>
+<script>function coming(){let t=document.getElementById('toast');t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3000)}</script>
+</body></html>

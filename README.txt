@@ -1,0 +1,1 @@
+tagspot.lk coming-soon venue booking website. Upload index.html and style.css to the root of your GitHub repository, then connect it to Cloudflare Pages. Sample venue names, ratings and locations are placeholders.
